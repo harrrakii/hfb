@@ -1,0 +1,7 @@
+D:\Desktop\MyProjects\for someone\C#\days\days\bin\Debug\days.exe.config
+D:\Desktop\MyProjects\for someone\C#\days\days\bin\Debug\days.exe
+D:\Desktop\MyProjects\for someone\C#\days\days\bin\Debug\days.pdb
+D:\Desktop\MyProjects\for someone\C#\days\days\obj\Debug\days.csproj.AssemblyReference.cache
+D:\Desktop\MyProjects\for someone\C#\days\days\obj\Debug\days.csproj.CoreCompileInputs.cache
+D:\Desktop\MyProjects\for someone\C#\days\days\obj\Debug\days.exe
+D:\Desktop\MyProjects\for someone\C#\days\days\obj\Debug\days.pdb

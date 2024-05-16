@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e8a2cfc2d3f2449a925379b835131093" Name="Diagram1">
+        <EntityTypeShape EntityType="CAFEModel.CafeShops" Width="1.5" PointX="0.75" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CAFEModel.Customers" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CAFEModel.Employees" Width="1.5" PointX="3" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CAFEModel.Positions" Width="1.5" PointX="0.75" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="CAFEModel.Products" Width="1.5" PointX="6" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CAFEModel.ProductTypes" Width="1.5" PointX="3.75" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CAFEModel.Sales" Width="1.5" PointX="3.75" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="CAFEModel.SellingDetails" Width="1.5" PointX="8.25" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="CAFEModel.Sellings" Width="1.5" PointX="6" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CAFEModel.UserRoles" Width="1.5" PointX="1.5" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="CAFEModel.Users" Width="1.5" PointX="0.75" PointY="7.25" IsExpanded="true" />
+        <AssociationConnector Association="CAFEModel.FK__Employees__IDCaf__5441852A" ManuallyRouted="false" />
+        <AssociationConnector Association="CAFEModel.FK__Sellings__IDCoff__60A75C0F" ManuallyRouted="false" />
+        <AssociationConnector Association="CAFEModel.FK__Sellings__IDCust__619B8048" ManuallyRouted="false" />
+        <AssociationConnector Association="CAFEModel.FK__Employees__IDPos__534D60F1" ManuallyRouted="false" />
+        <AssociationConnector Association="CAFEModel.FK__Employees__IDUse__5535A963" ManuallyRouted="false" />
+        <AssociationConnector Association="CAFEModel.FK__Products__IDProd__59FA5E80" ManuallyRouted="false" />
+        <AssociationConnector Association="CAFEModel.FK__SellingDe__IDPro__66603565" ManuallyRouted="false" />
+        <AssociationConnector Association="CAFEModel.FK__Sellings__IDSale__628FA481" ManuallyRouted="false" />
+        <AssociationConnector Association="CAFEModel.FK__SellingDe__IDSel__656C112C" ManuallyRouted="false" />
+        <AssociationConnector Association="CAFEModel.FK__Users__IDRole__4E88ABD4" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

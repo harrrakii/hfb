@@ -1,0 +1,38 @@
+﻿<Window x:Class="Practica1EF.Window4"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Practica1EF"
+        mc:Ignorable="d"
+        Title="Window4" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <DataGrid AutoGenerateColumns="False" x:Name="MasterServicesDataGrid" Grid.RowSpan="2" Grid.ColumnSpan="2" SelectionChanged="MasterServicesDataGrid_SelectionChanged">
+        <DataGrid.Columns>
+            <DataGridTextColumn Binding="{Binding Masters.FullName}" Header="FullName"/>
+            <DataGridTextColumn Binding="{Binding Masters.Schedule.Day_OfWeek}" Header="Day"/>
+            <DataGridTextColumn Binding="{Binding Masters.Schedule.WorkingHours}" Header="Hours"/>
+            <DataGridTextColumn Binding="{Binding Services_.ServiceName}" Header="Name"/>
+            <DataGridTextColumn Binding="{Binding Services_.Price}" Header="Price"/>
+        </DataGrid.Columns>
+        </DataGrid>
+        <ComboBox x:Name="MasterID" Grid.Column="0" Grid.Row="2" DisplayMemberPath="Master_ID"/>
+        <ComboBox x:Name="ServiceID" Grid.Column="1" Grid.Row="2" DisplayMemberPath="Service_ID"/>
+        <Button x:Name="Change" Content="Изменить" Grid.Row="3" Grid.ColumnSpan="2" Click="Change_Click"/>
+        <Button x:Name="Add" Content="Добавить" Grid.Row="4" Grid.ColumnSpan="2" Click="Add_Click"/>
+        <Button x:Name="Delete" Content="Удалить" Grid.Row="5" Grid.ColumnSpan="2" Click="Delete_Click"/>
+        
+    </Grid>
+</Window>

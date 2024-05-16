@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="Хранилище PRACTICA1Model" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Masters">
+          <Key>
+            <PropertyRef Name="Master_ID" />
+          </Key>
+          <Property Name="Master_ID" Type="int" Nullable="false" />
+          <Property Name="FullName" Type="varchar" MaxLength="100" />
+          <Property Name="WorkingDay" Type="varchar" MaxLength="20" />
+        </EntityType>
+        <EntityType Name="MasterServices">
+          <Key>
+            <PropertyRef Name="ID_Master" />
+            <PropertyRef Name="ID_Service" />
+          </Key>
+          <Property Name="ID_Master" Type="int" Nullable="false" />
+          <Property Name="ID_Service" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Schedule">
+          <Key>
+            <PropertyRef Name="Day_OfWeek" />
+          </Key>
+          <Property Name="Day_OfWeek" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="WorkingHours" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Services_">
+          <Key>
+            <PropertyRef Name="Service_ID" />
+          </Key>
+          <Property Name="Service_ID" Type="int" Nullable="false" />
+          <Property Name="ServiceName" Type="varchar" MaxLength="50" />
+          <Property Name="Price" Type="decimal" Precision="10" Scale="2" />
+        </EntityType>
+        <Association Name="FK__Masters__Working__4D94879B">
+          <End Role="Schedule" Type="Self.Schedule" Multiplicity="0..1" />
+          <End Role="Masters" Type="Self.Masters" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Schedule">
+              <PropertyRef Name="Day_OfWeek" />
+            </Principal>
+            <Dependent Role="Masters">
+              <PropertyRef Name="WorkingDay" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__MasterSer__ID_Ma__5070F446">
+          <End Role="Masters" Type="Self.Masters" Multiplicity="1" />
+          <End Role="MasterServices" Type="Self.MasterServices" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Masters">
+              <PropertyRef Name="Master_ID" />
+            </Principal>
+            <Dependent Role="MasterServices">
+              <PropertyRef Name="ID_Master" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__MasterSer__ID_Se__5165187F">
+          <End Role="Services_" Type="Self.Services_" Multiplicity="1" />
+          <End Role="MasterServices" Type="Self.MasterServices" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Services_">
+              <PropertyRef Name="Service_ID" />
+            </Principal>
+            <Dependent Role="MasterServices">
+              <PropertyRef Name="ID_Service" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="Хранилище PRACTICA1ModelContainer">
+          <EntitySet Name="Masters" EntityType="Self.Masters" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="MasterServices" EntityType="Self.MasterServices" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Schedule" EntityType="Self.Schedule" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Services_" EntityType="Self.Services_" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK__Masters__Working__4D94879B" Association="Self.FK__Masters__Working__4D94879B">
+            <End Role="Schedule" EntitySet="Schedule" />
+            <End Role="Masters" EntitySet="Masters" />
+          </AssociationSet>
+          <AssociationSet Name="FK__MasterSer__ID_Ma__5070F446" Association="Self.FK__MasterSer__ID_Ma__5070F446">
+            <End Role="Masters" EntitySet="Masters" />
+            <End Role="MasterServices" EntitySet="MasterServices" />
+          </AssociationSet>
+          <AssociationSet Name="FK__MasterSer__ID_Se__5165187F" Association="Self.FK__MasterSer__ID_Se__5165187F">
+            <End Role="Services_" EntitySet="Services_" />
+            <End Role="MasterServices" EntitySet="MasterServices" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="PRACTICA1Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Masters">
+          <Key>
+            <PropertyRef Name="Master_ID" />
+          </Key>
+          <Property Name="Master_ID" Type="Int32" Nullable="false" />
+          <Property Name="FullName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="WorkingDay" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="Schedule" Relationship="Self.FK__Masters__Working__4D94879B" FromRole="Masters" ToRole="Schedule" />
+          <NavigationProperty Name="Services_" Relationship="Self.MasterServices" FromRole="Masters" ToRole="Services_" />
+        </EntityType>
+        <EntityType Name="Schedule">
+          <Key>
+            <PropertyRef Name="Day_OfWeek" />
+          </Key>
+          <Property Name="Day_OfWeek" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="WorkingHours" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="Masters" Relationship="Self.FK__Masters__Working__4D94879B" FromRole="Schedule" ToRole="Masters" />
+        </EntityType>
+        <EntityType Name="Services_">
+          <Key>
+            <PropertyRef Name="Service_ID" />
+          </Key>
+          <Property Name="Service_ID" Type="Int32" Nullable="false" />
+          <Property Name="ServiceName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Price" Type="Decimal" Precision="10" Scale="2" />
+          <NavigationProperty Name="Masters" Relationship="Self.MasterServices" FromRole="Services_" ToRole="Masters" />
+        </EntityType>
+        <Association Name="FK__Masters__Working__4D94879B">
+          <End Role="Schedule" Type="Self.Schedule" Multiplicity="0..1" />
+          <End Role="Masters" Type="Self.Masters" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Schedule">
+              <PropertyRef Name="Day_OfWeek" />
+            </Principal>
+            <Dependent Role="Masters">
+              <PropertyRef Name="WorkingDay" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="MasterServices">
+          <End Role="Masters" Type="Self.Masters" Multiplicity="*" />
+          <End Role="Services_" Type="Self.Services_" Multiplicity="*" />
+        </Association>
+        <EntityContainer Name="PRACTICA1Entities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Masters" EntityType="Self.Masters" />
+          <EntitySet Name="Schedule" EntityType="Self.Schedule" />
+          <EntitySet Name="Services_" EntityType="Self.Services_" />
+          <AssociationSet Name="FK__Masters__Working__4D94879B" Association="Self.FK__Masters__Working__4D94879B">
+            <End Role="Schedule" EntitySet="Schedule" />
+            <End Role="Masters" EntitySet="Masters" />
+          </AssociationSet>
+          <AssociationSet Name="MasterServices" Association="Self.MasterServices">
+            <End Role="Masters" EntitySet="Masters" />
+            <End Role="Services_" EntitySet="Services_" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="Хранилище PRACTICA1ModelContainer" CdmEntityContainer="PRACTICA1Entities">
+          <EntitySetMapping Name="Masters">
+            <EntityTypeMapping TypeName="PRACTICA1Model.Masters">
+              <MappingFragment StoreEntitySet="Masters">
+                <ScalarProperty Name="Master_ID" ColumnName="Master_ID" />
+                <ScalarProperty Name="FullName" ColumnName="FullName" />
+                <ScalarProperty Name="WorkingDay" ColumnName="WorkingDay" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Schedule">
+            <EntityTypeMapping TypeName="PRACTICA1Model.Schedule">
+              <MappingFragment StoreEntitySet="Schedule">
+                <ScalarProperty Name="Day_OfWeek" ColumnName="Day_OfWeek" />
+                <ScalarProperty Name="WorkingHours" ColumnName="WorkingHours" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Services_">
+            <EntityTypeMapping TypeName="PRACTICA1Model.Services_">
+              <MappingFragment StoreEntitySet="Services_">
+                <ScalarProperty Name="Service_ID" ColumnName="Service_ID" />
+                <ScalarProperty Name="ServiceName" ColumnName="ServiceName" />
+                <ScalarProperty Name="Price" ColumnName="Price" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <AssociationSetMapping Name="MasterServices" TypeName="PRACTICA1Model.MasterServices" StoreEntitySet="MasterServices">
+            <EndProperty Name="Masters">
+              <ScalarProperty Name="Master_ID" ColumnName="ID_Master" />
+            </EndProperty>
+            <EndProperty Name="Services_">
+              <ScalarProperty Name="Service_ID" ColumnName="ID_Service" />
+            </EndProperty>
+          </AssociationSetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Нет" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

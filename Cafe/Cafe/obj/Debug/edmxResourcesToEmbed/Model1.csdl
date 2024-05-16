@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CAFEModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="CafeShops">
+    <Key>
+      <PropertyRef Name="CafeID" />
+    </Key>
+    <Property Name="CafeID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Address_" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Employees" Relationship="Self.FK__Employees__IDCaf__5441852A" FromRole="CafeShops" ToRole="Employees" />
+    <NavigationProperty Name="Sellings" Relationship="Self.FK__Sellings__IDCoff__60A75C0F" FromRole="CafeShops" ToRole="Sellings" />
+  </EntityType>
+  <EntityType Name="Customers">
+    <Key>
+      <PropertyRef Name="CustomerID" />
+    </Key>
+    <Property Name="CustomerID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Surname" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Firstname" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Patronymic" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Number" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Sellings" Relationship="Self.FK__Sellings__IDCust__619B8048" FromRole="Customers" ToRole="Sellings" />
+  </EntityType>
+  <EntityType Name="Employees">
+    <Key>
+      <PropertyRef Name="EmployeesID" />
+    </Key>
+    <Property Name="EmployeesID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Surname" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Firstname" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Patronymic" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="IDPosition" Type="Int32" Nullable="false" />
+    <Property Name="IDCafe" Type="Int32" Nullable="false" />
+    <Property Name="IDUser" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="CafeShops" Relationship="Self.FK__Employees__IDCaf__5441852A" FromRole="Employees" ToRole="CafeShops" />
+    <NavigationProperty Name="Positions" Relationship="Self.FK__Employees__IDPos__534D60F1" FromRole="Employees" ToRole="Positions" />
+    <NavigationProperty Name="Users" Relationship="Self.FK__Employees__IDUse__5535A963" FromRole="Employees" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="Positions">
+    <Key>
+      <PropertyRef Name="PositionID" />
+    </Key>
+    <Property Name="PositionID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Position" Type="String" MaxLength="70" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Employees" Relationship="Self.FK__Employees__IDPos__534D60F1" FromRole="Positions" ToRole="Employees" />
+  </EntityType>
+  <EntityType Name="Products">
+    <Key>
+      <PropertyRef Name="ProductID" />
+    </Key>
+    <Property Name="ProductID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IDProductType" Type="Int32" Nullable="false" />
+    <Property Name="Count_" Type="Int32" Nullable="false" />
+    <Property Name="Price" Type="Decimal" Precision="10" Scale="2" />
+    <NavigationProperty Name="ProductTypes" Relationship="Self.FK__Products__IDProd__59FA5E80" FromRole="Products" ToRole="ProductTypes" />
+    <NavigationProperty Name="SellingDetails" Relationship="Self.FK__SellingDe__IDPro__66603565" FromRole="Products" ToRole="SellingDetails" />
+  </EntityType>
+  <EntityType Name="ProductTypes">
+    <Key>
+      <PropertyRef Name="ProductTypeID" />
+    </Key>
+    <Property Name="ProductTypeID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductType" Type="String" MaxLength="70" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Products" Relationship="Self.FK__Products__IDProd__59FA5E80" FromRole="ProductTypes" ToRole="Products" />
+  </EntityType>
+  <EntityType Name="Sales">
+    <Key>
+      <PropertyRef Name="SaleID" />
+    </Key>
+    <Property Name="SaleID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StartDate" Type="DateTime" Precision="0" />
+    <Property Name="EndDate" Type="DateTime" Precision="0" />
+    <Property Name="Amount" Type="Decimal" Precision="10" Scale="2" />
+    <NavigationProperty Name="Sellings" Relationship="Self.FK__Sellings__IDSale__628FA481" FromRole="Sales" ToRole="Sellings" />
+  </EntityType>
+  <EntityType Name="SellingDetails">
+    <Key>
+      <PropertyRef Name="SellingDetailID" />
+    </Key>
+    <Property Name="SellingDetailID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IDSelling" Type="Int32" />
+    <Property Name="IDProduct" Type="Int32" />
+    <Property Name="Count_" Type="Int32" />
+    <Property Name="Amount" Type="Decimal" Precision="10" Scale="2" />
+    <NavigationProperty Name="Products" Relationship="Self.FK__SellingDe__IDPro__66603565" FromRole="SellingDetails" ToRole="Products" />
+    <NavigationProperty Name="Sellings" Relationship="Self.FK__SellingDe__IDSel__656C112C" FromRole="SellingDetails" ToRole="Sellings" />
+  </EntityType>
+  <EntityType Name="Sellings">
+    <Key>
+      <PropertyRef Name="SellingID" />
+    </Key>
+    <Property Name="SellingID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IDCoffeeShop" Type="Int32" />
+    <Property Name="IDCustomer" Type="Int32" />
+    <Property Name="SaleDate" Type="DateTime" Precision="0" />
+    <Property Name="TotalAmount" Type="Decimal" Precision="10" Scale="2" />
+    <Property Name="IDSale" Type="Int32" />
+    <NavigationProperty Name="CafeShops" Relationship="Self.FK__Sellings__IDCoff__60A75C0F" FromRole="Sellings" ToRole="CafeShops" />
+    <NavigationProperty Name="Customers" Relationship="Self.FK__Sellings__IDCust__619B8048" FromRole="Sellings" ToRole="Customers" />
+    <NavigationProperty Name="Sales" Relationship="Self.FK__Sellings__IDSale__628FA481" FromRole="Sellings" ToRole="Sales" />
+    <NavigationProperty Name="SellingDetails" Relationship="Self.FK__SellingDe__IDSel__656C112C" FromRole="Sellings" ToRole="SellingDetails" />
+  </EntityType>
+  <EntityType Name="UserRoles">
+    <Key>
+      <PropertyRef Name="RoleID" />
+    </Key>
+    <Property Name="RoleID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Role" Type="String" MaxLength="70" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Users" Relationship="Self.FK__Users__IDRole__4E88ABD4" FromRole="UserRoles" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="UserID" />
+    </Key>
+    <Property Name="UserID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Login_" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Password_" Type="String" MaxLength="70" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="IDRole" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Employees" Relationship="Self.FK__Employees__IDUse__5535A963" FromRole="Users" ToRole="Employees" />
+    <NavigationProperty Name="UserRoles" Relationship="Self.FK__Users__IDRole__4E88ABD4" FromRole="Users" ToRole="UserRoles" />
+  </EntityType>
+  <Association Name="FK__Employees__IDCaf__5441852A">
+    <End Role="CafeShops" Type="Self.CafeShops" Multiplicity="1" />
+    <End Role="Employees" Type="Self.Employees" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CafeShops">
+        <PropertyRef Name="CafeID" />
+      </Principal>
+      <Dependent Role="Employees">
+        <PropertyRef Name="IDCafe" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Sellings__IDCoff__60A75C0F">
+    <End Role="CafeShops" Type="Self.CafeShops" Multiplicity="0..1" />
+    <End Role="Sellings" Type="Self.Sellings" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CafeShops">
+        <PropertyRef Name="CafeID" />
+      </Principal>
+      <Dependent Role="Sellings">
+        <PropertyRef Name="IDCoffeeShop" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Sellings__IDCust__619B8048">
+    <End Role="Customers" Type="Self.Customers" Multiplicity="0..1" />
+    <End Role="Sellings" Type="Self.Sellings" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customers">
+        <PropertyRef Name="CustomerID" />
+      </Principal>
+      <Dependent Role="Sellings">
+        <PropertyRef Name="IDCustomer" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Employees__IDPos__534D60F1">
+    <End Role="Positions" Type="Self.Positions" Multiplicity="1" />
+    <End Role="Employees" Type="Self.Employees" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Positions">
+        <PropertyRef Name="PositionID" />
+      </Principal>
+      <Dependent Role="Employees">
+        <PropertyRef Name="IDPosition" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Employees__IDUse__5535A963">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="Employees" Type="Self.Employees" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="Employees">
+        <PropertyRef Name="IDUser" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Products__IDProd__59FA5E80">
+    <End Role="ProductTypes" Type="Self.ProductTypes" Multiplicity="1" />
+    <End Role="Products" Type="Self.Products" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ProductTypes">
+        <PropertyRef Name="ProductTypeID" />
+      </Principal>
+      <Dependent Role="Products">
+        <PropertyRef Name="IDProductType" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__SellingDe__IDPro__66603565">
+    <End Role="Products" Type="Self.Products" Multiplicity="0..1" />
+    <End Role="SellingDetails" Type="Self.SellingDetails" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products">
+        <PropertyRef Name="ProductID" />
+      </Principal>
+      <Dependent Role="SellingDetails">
+        <PropertyRef Name="IDProduct" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Sellings__IDSale__628FA481">
+    <End Role="Sales" Type="Self.Sales" Multiplicity="0..1" />
+    <End Role="Sellings" Type="Self.Sellings" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sales">
+        <PropertyRef Name="SaleID" />
+      </Principal>
+      <Dependent Role="Sellings">
+        <PropertyRef Name="IDSale" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__SellingDe__IDSel__656C112C">
+    <End Role="Sellings" Type="Self.Sellings" Multiplicity="0..1" />
+    <End Role="SellingDetails" Type="Self.SellingDetails" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sellings">
+        <PropertyRef Name="SellingID" />
+      </Principal>
+      <Dependent Role="SellingDetails">
+        <PropertyRef Name="IDSelling" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Users__IDRole__4E88ABD4">
+    <End Role="UserRoles" Type="Self.UserRoles" Multiplicity="1" />
+    <End Role="Users" Type="Self.Users" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserRoles">
+        <PropertyRef Name="RoleID" />
+      </Principal>
+      <Dependent Role="Users">
+        <PropertyRef Name="IDRole" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="CAFEEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="CafeShops" EntityType="Self.CafeShops" />
+    <EntitySet Name="Customers" EntityType="Self.Customers" />
+    <EntitySet Name="Employees" EntityType="Self.Employees" />
+    <EntitySet Name="Positions" EntityType="Self.Positions" />
+    <EntitySet Name="Products" EntityType="Self.Products" />
+    <EntitySet Name="ProductTypes" EntityType="Self.ProductTypes" />
+    <EntitySet Name="Sales" EntityType="Self.Sales" />
+    <EntitySet Name="SellingDetails" EntityType="Self.SellingDetails" />
+    <EntitySet Name="Sellings" EntityType="Self.Sellings" />
+    <EntitySet Name="UserRoles" EntityType="Self.UserRoles" />
+    <EntitySet Name="Users" EntityType="Self.Users" />
+    <AssociationSet Name="FK__Employees__IDCaf__5441852A" Association="Self.FK__Employees__IDCaf__5441852A">
+      <End Role="CafeShops" EntitySet="CafeShops" />
+      <End Role="Employees" EntitySet="Employees" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Sellings__IDCoff__60A75C0F" Association="Self.FK__Sellings__IDCoff__60A75C0F">
+      <End Role="CafeShops" EntitySet="CafeShops" />
+      <End Role="Sellings" EntitySet="Sellings" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Sellings__IDCust__619B8048" Association="Self.FK__Sellings__IDCust__619B8048">
+      <End Role="Customers" EntitySet="Customers" />
+      <End Role="Sellings" EntitySet="Sellings" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Employees__IDPos__534D60F1" Association="Self.FK__Employees__IDPos__534D60F1">
+      <End Role="Positions" EntitySet="Positions" />
+      <End Role="Employees" EntitySet="Employees" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Employees__IDUse__5535A963" Association="Self.FK__Employees__IDUse__5535A963">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Employees" EntitySet="Employees" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Products__IDProd__59FA5E80" Association="Self.FK__Products__IDProd__59FA5E80">
+      <End Role="ProductTypes" EntitySet="ProductTypes" />
+      <End Role="Products" EntitySet="Products" />
+    </AssociationSet>
+    <AssociationSet Name="FK__SellingDe__IDPro__66603565" Association="Self.FK__SellingDe__IDPro__66603565">
+      <End Role="Products" EntitySet="Products" />
+      <End Role="SellingDetails" EntitySet="SellingDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Sellings__IDSale__628FA481" Association="Self.FK__Sellings__IDSale__628FA481">
+      <End Role="Sales" EntitySet="Sales" />
+      <End Role="Sellings" EntitySet="Sellings" />
+    </AssociationSet>
+    <AssociationSet Name="FK__SellingDe__IDSel__656C112C" Association="Self.FK__SellingDe__IDSel__656C112C">
+      <End Role="Sellings" EntitySet="Sellings" />
+      <End Role="SellingDetails" EntitySet="SellingDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Users__IDRole__4E88ABD4" Association="Self.FK__Users__IDRole__4E88ABD4">
+      <End Role="UserRoles" EntitySet="UserRoles" />
+      <End Role="Users" EntitySet="Users" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

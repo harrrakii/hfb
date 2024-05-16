@@ -1,0 +1,14 @@
+C:\Users\kira0\Desktop\c#\College\HotKeys\bin\Debug\net7.0\HotKeys.exe
+C:\Users\kira0\Desktop\c#\College\HotKeys\bin\Debug\net7.0\HotKeys.deps.json
+C:\Users\kira0\Desktop\c#\College\HotKeys\bin\Debug\net7.0\HotKeys.runtimeconfig.json
+C:\Users\kira0\Desktop\c#\College\HotKeys\bin\Debug\net7.0\HotKeys.dll
+C:\Users\kira0\Desktop\c#\College\HotKeys\bin\Debug\net7.0\HotKeys.pdb
+C:\Users\kira0\Desktop\c#\College\HotKeys\obj\Debug\net7.0\HotKeys.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kira0\Desktop\c#\College\HotKeys\obj\Debug\net7.0\HotKeys.AssemblyInfoInputs.cache
+C:\Users\kira0\Desktop\c#\College\HotKeys\obj\Debug\net7.0\HotKeys.AssemblyInfo.cs
+C:\Users\kira0\Desktop\c#\College\HotKeys\obj\Debug\net7.0\HotKeys.csproj.CoreCompileInputs.cache
+C:\Users\kira0\Desktop\c#\College\HotKeys\obj\Debug\net7.0\HotKeys.dll
+C:\Users\kira0\Desktop\c#\College\HotKeys\obj\Debug\net7.0\refint\HotKeys.dll
+C:\Users\kira0\Desktop\c#\College\HotKeys\obj\Debug\net7.0\HotKeys.pdb
+C:\Users\kira0\Desktop\c#\College\HotKeys\obj\Debug\net7.0\HotKeys.genruntimeconfig.cache
+C:\Users\kira0\Desktop\c#\College\HotKeys\obj\Debug\net7.0\ref\HotKeys.dll

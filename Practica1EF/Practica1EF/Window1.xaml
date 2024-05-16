@@ -1,0 +1,35 @@
+﻿<Window x:Class="Practica1EF.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Practica1EF"
+        mc:Ignorable="d"
+        Title="Window1" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <DataGrid x:Name="ServicesDataGrid" Grid.RowSpan="2" Grid.ColumnSpan="2" SelectionChanged="ServicesDataGrid_SelectionChanged"/>
+        <TextBox x:Name="Service" Text="Услуга" Grid.Column="0" Grid.Row="2"/>
+        <TextBox x:Name="Price" Text="Цена" Grid.Column="1" Grid.Row="2"/>
+        <Button x:Name="Change" Content="Изменить" Grid.Row="3" Grid.ColumnSpan="2" Click="Change_Click"/>
+        <Button x:Name="Add" Content="Добавить" Grid.Row="4" Grid.ColumnSpan="2" Click="Add_Click"/>
+        <Button x:Name="Delete" Content="Удалить" Grid.Row="5" Grid.ColumnSpan="2" Click="Delete_Click"/>
+        <TextBox x:Name="SearchTxt" Grid.Column="0" Grid.Row="6"/>
+        <ComboBox x:Name="CmbSearch" Grid.Column="0" Grid.Row="7" DisplayMemberPath="Price" SelectionChanged="CmbSearch_SelectionChanged"/>
+        <Button x:Name="Clear" Content="Очистить" Grid.Column="1" Grid.Row="7" Click="Clear_Click"/>
+        <Button x:Name="Search" Content="Поиск" Grid.Column="1" Grid.Row="6" Click="Search_Click_1"/>
+    </Grid>
+</Window>

@@ -1,0 +1,9 @@
+C:\Users\kira0\Desktop\c#\Practica1DataSet\Practica1DataSet\obj\Release\Practica1DataSet.csproj.AssemblyReference.cache
+C:\Users\kira0\Desktop\c#\Practica1DataSet\Practica1DataSet\obj\Release\MainWindow.g.cs
+C:\Users\kira0\Desktop\c#\Practica1DataSet\Practica1DataSet\obj\Release\Window1.g.cs
+C:\Users\kira0\Desktop\c#\Practica1DataSet\Practica1DataSet\obj\Release\Window2.g.cs
+C:\Users\kira0\Desktop\c#\Practica1DataSet\Practica1DataSet\obj\Release\Window3.g.cs
+C:\Users\kira0\Desktop\c#\Practica1DataSet\Practica1DataSet\obj\Release\Window4.g.cs
+C:\Users\kira0\Desktop\c#\Practica1DataSet\Practica1DataSet\obj\Release\App.g.cs
+C:\Users\kira0\Desktop\c#\Practica1DataSet\Practica1DataSet\obj\Release\Practica1DataSet_MarkupCompile.cache
+C:\Users\kira0\Desktop\c#\Practica1DataSet\Practica1DataSet\obj\Release\Practica1DataSet_MarkupCompile.lref

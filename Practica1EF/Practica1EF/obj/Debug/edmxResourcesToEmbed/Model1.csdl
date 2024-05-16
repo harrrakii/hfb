@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PRACTICA1EF1Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Masters">
+    <Key>
+      <PropertyRef Name="Master_ID" />
+    </Key>
+    <Property Name="Master_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FullName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="ScheduleID" Type="Int32" />
+    <NavigationProperty Name="Schedule" Relationship="Self.FK__Masters__Schedul__4D94879B" FromRole="Masters" ToRole="Schedule" />
+    <NavigationProperty Name="MasterServices" Relationship="Self.FK__MasterSer__ID_Ma__5070F446" FromRole="Masters" ToRole="MasterServices" />
+  </EntityType>
+  <EntityType Name="MasterServices">
+    <Key>
+      <PropertyRef Name="MasterServiceID" />
+    </Key>
+    <Property Name="MasterServiceID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ID_Master" Type="Int32" />
+    <Property Name="ID_Service" Type="Int32" />
+    <NavigationProperty Name="Masters" Relationship="Self.FK__MasterSer__ID_Ma__5070F446" FromRole="MasterServices" ToRole="Masters" />
+    <NavigationProperty Name="Services_" Relationship="Self.FK__MasterSer__ID_Se__5165187F" FromRole="MasterServices" ToRole="Services_" />
+  </EntityType>
+  <EntityType Name="Schedule">
+    <Key>
+      <PropertyRef Name="ScheduleID" />
+    </Key>
+    <Property Name="ScheduleID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Day_OfWeek" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="WorkingHours" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Masters" Relationship="Self.FK__Masters__Schedul__4D94879B" FromRole="Schedule" ToRole="Masters" />
+  </EntityType>
+  <EntityType Name="Services_">
+    <Key>
+      <PropertyRef Name="Service_ID" />
+    </Key>
+    <Property Name="Service_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ServiceName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Price" Type="Decimal" Precision="10" Scale="2" />
+    <NavigationProperty Name="MasterServices" Relationship="Self.FK__MasterSer__ID_Se__5165187F" FromRole="Services_" ToRole="MasterServices" />
+  </EntityType>
+  <Association Name="FK__Masters__Schedul__4D94879B">
+    <End Role="Schedule" Type="Self.Schedule" Multiplicity="0..1" />
+    <End Role="Masters" Type="Self.Masters" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Schedule">
+        <PropertyRef Name="ScheduleID" />
+      </Principal>
+      <Dependent Role="Masters">
+        <PropertyRef Name="ScheduleID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__MasterSer__ID_Ma__5070F446">
+    <End Role="Masters" Type="Self.Masters" Multiplicity="0..1" />
+    <End Role="MasterServices" Type="Self.MasterServices" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Masters">
+        <PropertyRef Name="Master_ID" />
+      </Principal>
+      <Dependent Role="MasterServices">
+        <PropertyRef Name="ID_Master" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__MasterSer__ID_Se__5165187F">
+    <End Role="Services_" Type="Self.Services_" Multiplicity="0..1" />
+    <End Role="MasterServices" Type="Self.MasterServices" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Services_">
+        <PropertyRef Name="Service_ID" />
+      </Principal>
+      <Dependent Role="MasterServices">
+        <PropertyRef Name="ID_Service" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="PRACTICA1EF1Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Masters" EntityType="Self.Masters" />
+    <EntitySet Name="MasterServices" EntityType="Self.MasterServices" />
+    <EntitySet Name="Schedule" EntityType="Self.Schedule" />
+    <EntitySet Name="Services_" EntityType="Self.Services_" />
+    <AssociationSet Name="FK__Masters__Schedul__4D94879B" Association="Self.FK__Masters__Schedul__4D94879B">
+      <End Role="Schedule" EntitySet="Schedule" />
+      <End Role="Masters" EntitySet="Masters" />
+    </AssociationSet>
+    <AssociationSet Name="FK__MasterSer__ID_Ma__5070F446" Association="Self.FK__MasterSer__ID_Ma__5070F446">
+      <End Role="Masters" EntitySet="Masters" />
+      <End Role="MasterServices" EntitySet="MasterServices" />
+    </AssociationSet>
+    <AssociationSet Name="FK__MasterSer__ID_Se__5165187F" Association="Self.FK__MasterSer__ID_Se__5165187F">
+      <End Role="Services_" EntitySet="Services_" />
+      <End Role="MasterServices" EntitySet="MasterServices" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

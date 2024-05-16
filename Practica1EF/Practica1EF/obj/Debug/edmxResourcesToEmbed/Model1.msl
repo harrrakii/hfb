@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище PRACTICA1EF1ModelContainer" CdmEntityContainer="PRACTICA1EF1Entities">
+    <EntitySetMapping Name="Masters">
+      <EntityTypeMapping TypeName="PRACTICA1EF1Model.Masters">
+        <MappingFragment StoreEntitySet="Masters">
+          <ScalarProperty Name="Master_ID" ColumnName="Master_ID" />
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+          <ScalarProperty Name="ScheduleID" ColumnName="ScheduleID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MasterServices">
+      <EntityTypeMapping TypeName="PRACTICA1EF1Model.MasterServices">
+        <MappingFragment StoreEntitySet="MasterServices">
+          <ScalarProperty Name="MasterServiceID" ColumnName="MasterServiceID" />
+          <ScalarProperty Name="ID_Master" ColumnName="ID_Master" />
+          <ScalarProperty Name="ID_Service" ColumnName="ID_Service" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Schedule">
+      <EntityTypeMapping TypeName="PRACTICA1EF1Model.Schedule">
+        <MappingFragment StoreEntitySet="Schedule">
+          <ScalarProperty Name="ScheduleID" ColumnName="ScheduleID" />
+          <ScalarProperty Name="Day_OfWeek" ColumnName="Day_OfWeek" />
+          <ScalarProperty Name="WorkingHours" ColumnName="WorkingHours" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Services_">
+      <EntityTypeMapping TypeName="PRACTICA1EF1Model.Services_">
+        <MappingFragment StoreEntitySet="Services_">
+          <ScalarProperty Name="Service_ID" ColumnName="Service_ID" />
+          <ScalarProperty Name="ServiceName" ColumnName="ServiceName" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

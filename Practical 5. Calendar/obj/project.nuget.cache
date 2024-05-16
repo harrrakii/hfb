@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "OlDdZAFU0Re1ydX/ZGaGEN2dW2lazdtedZj7gZTQDtcwgSqhso8IQoB4ZzjwYCuEZbthIFIZ565sBz2/Yk41Mw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Ilyam\\Downloads\\Practical-5-Calendar-WPF-main\\Practical 5. Calendar\\Practical 5. Calendar.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ilyam\\.nuget\\packages\\materialdesigncolors\\2.1.2\\materialdesigncolors.2.1.2.nupkg.sha512",
+    "C:\\Users\\Ilyam\\.nuget\\packages\\materialdesignthemes\\4.8.0\\materialdesignthemes.4.8.0.nupkg.sha512",
+    "C:\\Users\\Ilyam\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512",
+    "C:\\Users\\Ilyam\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

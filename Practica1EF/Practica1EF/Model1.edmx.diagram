@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7a7fa2956a154d2b927aec3c1262f9af" Name="Diagram1">
+        <EntityTypeShape EntityType="PRACTICA1EF1Model.Masters" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="PRACTICA1EF1Model.MasterServices" Width="1.5" PointX="5.25" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="PRACTICA1EF1Model.Schedule" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="PRACTICA1EF1Model.Services_" Width="1.5" PointX="3" PointY="4" IsExpanded="true" />
+        <AssociationConnector Association="PRACTICA1EF1Model.FK__Masters__Schedul__4D94879B" ManuallyRouted="false" />
+        <AssociationConnector Association="PRACTICA1EF1Model.FK__MasterSer__ID_Ma__5070F446" ManuallyRouted="false" />
+        <AssociationConnector Association="PRACTICA1EF1Model.FK__MasterSer__ID_Se__5165187F" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

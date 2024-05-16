@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище PRACTICA1EF1Model" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Masters">
+    <Key>
+      <PropertyRef Name="Master_ID" />
+    </Key>
+    <Property Name="Master_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FullName" Type="varchar" MaxLength="100" />
+    <Property Name="ScheduleID" Type="int" />
+  </EntityType>
+  <EntityType Name="MasterServices">
+    <Key>
+      <PropertyRef Name="MasterServiceID" />
+    </Key>
+    <Property Name="MasterServiceID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ID_Master" Type="int" />
+    <Property Name="ID_Service" Type="int" />
+  </EntityType>
+  <EntityType Name="Schedule">
+    <Key>
+      <PropertyRef Name="ScheduleID" />
+    </Key>
+    <Property Name="ScheduleID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Day_OfWeek" Type="varchar" MaxLength="20" />
+    <Property Name="WorkingHours" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Services_">
+    <Key>
+      <PropertyRef Name="Service_ID" />
+    </Key>
+    <Property Name="Service_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ServiceName" Type="varchar" MaxLength="50" />
+    <Property Name="Price" Type="decimal" Precision="10" Scale="2" />
+  </EntityType>
+  <Association Name="FK__Masters__Schedul__4D94879B">
+    <End Role="Schedule" Type="Self.Schedule" Multiplicity="0..1" />
+    <End Role="Masters" Type="Self.Masters" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Schedule">
+        <PropertyRef Name="ScheduleID" />
+      </Principal>
+      <Dependent Role="Masters">
+        <PropertyRef Name="ScheduleID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__MasterSer__ID_Ma__5070F446">
+    <End Role="Masters" Type="Self.Masters" Multiplicity="0..1" />
+    <End Role="MasterServices" Type="Self.MasterServices" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Masters">
+        <PropertyRef Name="Master_ID" />
+      </Principal>
+      <Dependent Role="MasterServices">
+        <PropertyRef Name="ID_Master" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__MasterSer__ID_Se__5165187F">
+    <End Role="Services_" Type="Self.Services_" Multiplicity="0..1" />
+    <End Role="MasterServices" Type="Self.MasterServices" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Services_">
+        <PropertyRef Name="Service_ID" />
+      </Principal>
+      <Dependent Role="MasterServices">
+        <PropertyRef Name="ID_Service" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Хранилище PRACTICA1EF1ModelContainer">
+    <EntitySet Name="Masters" EntityType="Self.Masters" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MasterServices" EntityType="Self.MasterServices" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Schedule" EntityType="Self.Schedule" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Services_" EntityType="Self.Services_" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Masters__Schedul__4D94879B" Association="Self.FK__Masters__Schedul__4D94879B">
+      <End Role="Schedule" EntitySet="Schedule" />
+      <End Role="Masters" EntitySet="Masters" />
+    </AssociationSet>
+    <AssociationSet Name="FK__MasterSer__ID_Ma__5070F446" Association="Self.FK__MasterSer__ID_Ma__5070F446">
+      <End Role="Masters" EntitySet="Masters" />
+      <End Role="MasterServices" EntitySet="MasterServices" />
+    </AssociationSet>
+    <AssociationSet Name="FK__MasterSer__ID_Se__5165187F" Association="Self.FK__MasterSer__ID_Se__5165187F">
+      <End Role="Services_" EntitySet="Services_" />
+      <End Role="MasterServices" EntitySet="MasterServices" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

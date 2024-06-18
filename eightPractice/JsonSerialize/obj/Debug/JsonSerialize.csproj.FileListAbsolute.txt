@@ -1,0 +1,11 @@
+D:\Desktop\Новая папка (2)\JsonSerialize\bin\Debug\JsonSerialize.dll
+D:\Desktop\Новая папка (2)\JsonSerialize\bin\Debug\JsonSerialize.pdb
+D:\Desktop\Новая папка (2)\JsonSerialize\bin\Debug\Newtonsoft.Json.dll
+D:\Desktop\Новая папка (2)\JsonSerialize\bin\Debug\Newtonsoft.Json.xml
+D:\Desktop\Новая папка (2)\JsonSerialize\obj\Debug\JsonSerialize.csproj.AssemblyReference.cache
+D:\Desktop\Новая папка (2)\JsonSerialize\obj\Debug\JsonSerialize.Properties.Resources.resources
+D:\Desktop\Новая папка (2)\JsonSerialize\obj\Debug\JsonSerialize.csproj.GenerateResource.cache
+D:\Desktop\Новая папка (2)\JsonSerialize\obj\Debug\JsonSerialize.csproj.CoreCompileInputs.cache
+D:\Desktop\Новая папка (2)\JsonSerialize\obj\Debug\JsonSerialize.csproj.CopyComplete
+D:\Desktop\Новая папка (2)\JsonSerialize\obj\Debug\JsonSerialize.dll
+D:\Desktop\Новая папка (2)\JsonSerialize\obj\Debug\JsonSerialize.pdb

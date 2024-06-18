@@ -1,0 +1,22 @@
+﻿<Window x:Class="Libraries.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <ListBox x:Name="LbConclusion" Grid.Row="0"></ListBox>
+        <Button Name="BtAdd" Grid.Row="1" Width="200" Height="100" Click="BtAdd_OnClick" Content="{DynamicResource Delete}"></Button>
+        <Button Name="BtImport" Grid.Row="2" Width="200" Height="100" Click="BtImport_OnClick" Content="{DynamicResource Import}"></Button>
+        <Button Name="BtExport" Grid.Row="3" Width="200" Height="100" Click="BtExport_OnClick" Content="{DynamicResource Export}"></Button>
+        <Button Name="BtChangeLang" Grid.Row="4" Width="200" Height="100" Click="BtChangeLang_OnClick" Content="{DynamicResource ChangeLanguage}"></Button>
+    </Grid>
+</Window>

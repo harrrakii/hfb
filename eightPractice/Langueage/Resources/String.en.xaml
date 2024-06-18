@@ -1,0 +1,8 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    <sys:String x:Key="Delete">Delete</sys:String>
+    <sys:String x:Key="Import">Import</sys:String>
+    <sys:String x:Key="Export">Export</sys:String>
+    <sys:String x:Key="ChangeLanguage">Change Language</sys:String>
+</ResourceDictionary>

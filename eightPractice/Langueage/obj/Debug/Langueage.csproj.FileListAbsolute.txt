@@ -1,0 +1,13 @@
+D:\Desktop\Новая папка (2)\Langueage\bin\Debug\Langueage.dll
+D:\Desktop\Новая папка (2)\Langueage\bin\Debug\Langueage.pdb
+D:\Desktop\Новая папка (2)\Langueage\obj\Debug\Langueage.csproj.AssemblyReference.cache
+D:\Desktop\Новая папка (2)\Langueage\obj\Debug\Resources\String.en.baml
+D:\Desktop\Новая папка (2)\Langueage\obj\Debug\Resources\String.rus.baml
+D:\Desktop\Новая папка (2)\Langueage\obj\Debug\XMLFile1.baml
+D:\Desktop\Новая папка (2)\Langueage\obj\Debug\Langueage_MarkupCompile.cache
+D:\Desktop\Новая папка (2)\Langueage\obj\Debug\Langueage.g.resources
+D:\Desktop\Новая папка (2)\Langueage\obj\Debug\Langueage.Properties.Resources.resources
+D:\Desktop\Новая папка (2)\Langueage\obj\Debug\Langueage.csproj.GenerateResource.cache
+D:\Desktop\Новая папка (2)\Langueage\obj\Debug\Langueage.csproj.CoreCompileInputs.cache
+D:\Desktop\Новая папка (2)\Langueage\obj\Debug\Langueage.dll
+D:\Desktop\Новая папка (2)\Langueage\obj\Debug\Langueage.pdb

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader"><![CDATA[{
+  "useNewFormat": true
+}]]></component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="main" targetName="main" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="941878d6-561f-4a85-ac0a-9821d14263ed" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Bank/.vs/Bank/FileContentIndex/53a1c6e8-d8e3-4b12-87b0-710e69339231.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bank/.vs/Bank/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bank/.vs/Bank/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bank/.vs/Bank/v17/Browse.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bank/.vs/Bank/v17/Browse.VC.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bank/Bank/Bank.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bank/Bank/Bank.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bank/Bank/x64/Debug/Bank.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bank/Bank/x64/Debug/Bank.ilk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bank/Bank/x64/Debug/Bank.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bank/Bank/x64/Debug/Bank.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bank/Bank/x64/Debug/vc143.idb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bank/Bank/x64/Debug/vc143.idb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bank/Bank/x64/Debug/vc143.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bank/Bank/x64/Debug/vc143.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bank/x64/Debug/Bank.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bank/x64/Debug/Bank.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bank/x64/Debug/Bank.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bank/x64/Debug/Bank.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ClientSocket/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClientSocket/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../calculator/.vs/calculator/FileContentIndex/ee38b6d1-c87a-46b7-a5c3-a69fccb16f59.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../calculator/.vs/calculator/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../calculator/.vs/calculator/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../calculator/.vs/calculator/v17/Browse.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/../../calculator/.vs/calculator/v17/Browse.VC.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../calculator/calculator/calculator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../calculator/calculator/calculator.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../calculator/calculator/x64/Debug/calculator.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/../../calculator/calculator/x64/Debug/calculator.ilk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../calculator/calculator/x64/Debug/calculator.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../calculator/calculator/x64/Debug/calculator.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../calculator/calculator/x64/Debug/vc143.idb" beforeDir="false" afterPath="$PROJECT_DIR$/../../calculator/calculator/x64/Debug/vc143.idb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../calculator/calculator/x64/Debug/vc143.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../calculator/calculator/x64/Debug/vc143.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../calculator/x64/Debug/calculator.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../calculator/x64/Debug/calculator.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../calculator/x64/Debug/calculator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../calculator/x64/Debug/calculator.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../matrix/.vs/matrix/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../matrix/.vs/matrix/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../matrix/.vs/matrix/v17/Browse.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/../../matrix/.vs/matrix/v17/Browse.VC.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../strings/.vs/strings/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../strings/.vs/strings/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../strings/.vs/strings/v17/Browse.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/../../strings/.vs/strings/v17/Browse.VC.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../strings/.vs/strings/v17/ipch/AutoPCH/c04bf32baf0b47b3/STRINGS.ipch" beforeDir="false" afterPath="$PROJECT_DIR$/../../strings/.vs/strings/v17/ipch/AutoPCH/c04bf32baf0b47b3/STRINGS.ipch" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2024" />
+    <option name="minorVersion" value="1.1" />
+    <option name="productBranch" value="Classic" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2hVfMWEOzoWQ2volCLNGgBRl4Vv" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/Desktop/College/Programming/CPP/eight",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="main" TARGET_NAME="main" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="main" RUN_TARGET_NAME="main">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="941878d6-561f-4a85-ac0a-9821d14263ed" name="Changes" comment="" />
+      <created>1717684117935</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1717684117935</updated>
+      <workItem from="1717684119441" duration="20000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

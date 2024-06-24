@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Practical 5. Calendar")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f4b9f6034c9c8594975baaccf97db9b5eb19a60a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Practical 5. Calendar")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Practical 5. Calendar")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

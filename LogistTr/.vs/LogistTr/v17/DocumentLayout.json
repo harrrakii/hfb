@@ -1,0 +1,519 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kira0\\source\\repos\\LogistTr\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4AFEE3F9-2216-40F2-9E35-42255C9D8A5A}|LogistTr\\LogistTr.csproj|C:\\Users\\kira0\\source\\repos\\LogistTr\\logisttr\\orderspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AFEE3F9-2216-40F2-9E35-42255C9D8A5A}|LogistTr\\LogistTr.csproj|solutionrelative:logisttr\\orderspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AFEE3F9-2216-40F2-9E35-42255C9D8A5A}|LogistTr\\LogistTr.csproj|c:\\users\\kira0\\source\\repos\\logisttr\\logisttr\\orderspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4AFEE3F9-2216-40F2-9E35-42255C9D8A5A}|LogistTr\\LogistTr.csproj|solutionrelative:logisttr\\orderspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AFEE3F9-2216-40F2-9E35-42255C9D8A5A}|LogistTr\\LogistTr.csproj|c:\\users\\kira0\\source\\repos\\logisttr\\logisttr\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AFEE3F9-2216-40F2-9E35-42255C9D8A5A}|LogistTr\\LogistTr.csproj|solutionrelative:logisttr\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AFEE3F9-2216-40F2-9E35-42255C9D8A5A}|LogistTr\\LogistTr.csproj|c:\\users\\kira0\\source\\repos\\logisttr\\logisttr\\routespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AFEE3F9-2216-40F2-9E35-42255C9D8A5A}|LogistTr\\LogistTr.csproj|solutionrelative:logisttr\\routespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AFEE3F9-2216-40F2-9E35-42255C9D8A5A}|LogistTr\\LogistTr.csproj|C:\\Users\\kira0\\source\\repos\\LogistTr\\logisttr\\warehousepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4AFEE3F9-2216-40F2-9E35-42255C9D8A5A}|LogistTr\\LogistTr.csproj|solutionrelative:logisttr\\warehousepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AFEE3F9-2216-40F2-9E35-42255C9D8A5A}|LogistTr\\LogistTr.csproj|c:\\users\\kira0\\source\\repos\\logisttr\\logisttr\\warehousedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AFEE3F9-2216-40F2-9E35-42255C9D8A5A}|LogistTr\\LogistTr.csproj|solutionrelative:logisttr\\warehousedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AFEE3F9-2216-40F2-9E35-42255C9D8A5A}|LogistTr\\LogistTr.csproj|C:\\Users\\kira0\\source\\repos\\LogistTr\\logisttr\\clientspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4AFEE3F9-2216-40F2-9E35-42255C9D8A5A}|LogistTr\\LogistTr.csproj|solutionrelative:logisttr\\clientspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AFEE3F9-2216-40F2-9E35-42255C9D8A5A}|LogistTr\\LogistTr.csproj|C:\\Users\\kira0\\source\\repos\\LogistTr\\logisttr\\clientspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AFEE3F9-2216-40F2-9E35-42255C9D8A5A}|LogistTr\\LogistTr.csproj|solutionrelative:logisttr\\clientspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AFEE3F9-2216-40F2-9E35-42255C9D8A5A}|LogistTr\\LogistTr.csproj|c:\\users\\kira0\\source\\repos\\logisttr\\logisttr\\routedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AFEE3F9-2216-40F2-9E35-42255C9D8A5A}|LogistTr\\LogistTr.csproj|solutionrelative:logisttr\\routedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AFEE3F9-2216-40F2-9E35-42255C9D8A5A}|LogistTr\\LogistTr.csproj|c:\\users\\kira0\\source\\repos\\logisttr\\logisttr\\warehousepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AFEE3F9-2216-40F2-9E35-42255C9D8A5A}|LogistTr\\LogistTr.csproj|solutionrelative:logisttr\\warehousepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AFEE3F9-2216-40F2-9E35-42255C9D8A5A}|LogistTr\\LogistTr.csproj|C:\\Users\\kira0\\source\\repos\\LogistTr\\logisttr\\routespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4AFEE3F9-2216-40F2-9E35-42255C9D8A5A}|LogistTr\\LogistTr.csproj|solutionrelative:logisttr\\routespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AFEE3F9-2216-40F2-9E35-42255C9D8A5A}|LogistTr\\LogistTr.csproj|C:\\Users\\kira0\\source\\repos\\LogistTr\\logisttr\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4AFEE3F9-2216-40F2-9E35-42255C9D8A5A}|LogistTr\\LogistTr.csproj|solutionrelative:logisttr\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AFEE3F9-2216-40F2-9E35-42255C9D8A5A}|LogistTr\\LogistTr.csproj|C:\\Users\\kira0\\source\\repos\\LogistTr\\logisttr\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4AFEE3F9-2216-40F2-9E35-42255C9D8A5A}|LogistTr\\LogistTr.csproj|solutionrelative:logisttr\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AFEE3F9-2216-40F2-9E35-42255C9D8A5A}|LogistTr\\LogistTr.csproj|C:\\Users\\kira0\\source\\repos\\LogistTr\\logisttr\\documents.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4AFEE3F9-2216-40F2-9E35-42255C9D8A5A}|LogistTr\\LogistTr.csproj|solutionrelative:logisttr\\documents.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AFEE3F9-2216-40F2-9E35-42255C9D8A5A}|LogistTr\\LogistTr.csproj|C:\\Users\\kira0\\source\\repos\\LogistTr\\logisttr\\allwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4AFEE3F9-2216-40F2-9E35-42255C9D8A5A}|LogistTr\\LogistTr.csproj|solutionrelative:logisttr\\allwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AFEE3F9-2216-40F2-9E35-42255C9D8A5A}|LogistTr\\LogistTr.csproj|c:\\users\\kira0\\source\\repos\\logisttr\\logisttr\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AFEE3F9-2216-40F2-9E35-42255C9D8A5A}|LogistTr\\LogistTr.csproj|solutionrelative:logisttr\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AFEE3F9-2216-40F2-9E35-42255C9D8A5A}|LogistTr\\LogistTr.csproj|C:\\Users\\kira0\\source\\repos\\LogistTr\\logisttr\\allwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AFEE3F9-2216-40F2-9E35-42255C9D8A5A}|LogistTr\\LogistTr.csproj|solutionrelative:logisttr\\allwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AFEE3F9-2216-40F2-9E35-42255C9D8A5A}|LogistTr\\LogistTr.csproj|c:\\users\\kira0\\source\\repos\\logisttr\\logisttr\\vehiclespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AFEE3F9-2216-40F2-9E35-42255C9D8A5A}|LogistTr\\LogistTr.csproj|solutionrelative:logisttr\\vehiclespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AFEE3F9-2216-40F2-9E35-42255C9D8A5A}|LogistTr\\LogistTr.csproj|C:\\Users\\kira0\\source\\repos\\LogistTr\\logisttr\\vehiclespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4AFEE3F9-2216-40F2-9E35-42255C9D8A5A}|LogistTr\\LogistTr.csproj|solutionrelative:logisttr\\vehiclespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AFEE3F9-2216-40F2-9E35-42255C9D8A5A}|LogistTr\\LogistTr.csproj|C:\\Users\\kira0\\source\\repos\\LogistTr\\logisttr\\lg.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AFEE3F9-2216-40F2-9E35-42255C9D8A5A}|LogistTr\\LogistTr.csproj|solutionrelative:logisttr\\lg.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AFEE3F9-2216-40F2-9E35-42255C9D8A5A}|LogistTr\\LogistTr.csproj|C:\\Users\\kira0\\source\\repos\\LogistTr\\logisttr\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AFEE3F9-2216-40F2-9E35-42255C9D8A5A}|LogistTr\\LogistTr.csproj|solutionrelative:logisttr\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AFEE3F9-2216-40F2-9E35-42255C9D8A5A}|LogistTr\\LogistTr.csproj|C:\\Users\\kira0\\source\\repos\\LogistTr\\logisttr\\routes_.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AFEE3F9-2216-40F2-9E35-42255C9D8A5A}|LogistTr\\LogistTr.csproj|solutionrelative:logisttr\\routes_.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AFEE3F9-2216-40F2-9E35-42255C9D8A5A}|LogistTr\\LogistTr.csproj|C:\\Users\\kira0\\source\\repos\\LogistTr\\logisttr\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AFEE3F9-2216-40F2-9E35-42255C9D8A5A}|LogistTr\\LogistTr.csproj|solutionrelative:logisttr\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AFEE3F9-2216-40F2-9E35-42255C9D8A5A}|LogistTr\\LogistTr.csproj|C:\\Users\\kira0\\source\\repos\\LogistTr\\logisttr\\clients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AFEE3F9-2216-40F2-9E35-42255C9D8A5A}|LogistTr\\LogistTr.csproj|solutionrelative:logisttr\\clients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AFEE3F9-2216-40F2-9E35-42255C9D8A5A}|LogistTr\\LogistTr.csproj|C:\\Users\\kira0\\source\\repos\\LogistTr\\logisttr\\vehicles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AFEE3F9-2216-40F2-9E35-42255C9D8A5A}|LogistTr\\LogistTr.csproj|solutionrelative:logisttr\\vehicles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AFEE3F9-2216-40F2-9E35-42255C9D8A5A}|LogistTr\\LogistTr.csproj|C:\\Users\\kira0\\source\\repos\\LogistTr\\logisttr\\lg.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{4AFEE3F9-2216-40F2-9E35-42255C9D8A5A}|LogistTr\\LogistTr.csproj|solutionrelative:logisttr\\lg.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AFEE3F9-2216-40F2-9E35-42255C9D8A5A}|LogistTr\\LogistTr.csproj|C:\\Users\\kira0\\source\\repos\\LogistTr\\logisttr\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{4AFEE3F9-2216-40F2-9E35-42255C9D8A5A}|LogistTr\\LogistTr.csproj|solutionrelative:logisttr\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kira0\\source\\repos\\LogistTr\\LogistTr\\BaseModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LogistTr\\BaseModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kira0\\source\\repos\\LogistTr\\LogistTr\\BaseModel.Context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LogistTr\\BaseModel.Context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kira0\\source\\repos\\LogistTr\\LogistTr\\BaseModel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LogistTr\\BaseModel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrdersPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\kira0\\source\\repos\\LogistTr\\LogistTr\\OrdersPage.xaml.cs",
+              "RelativeDocumentMoniker": "LogistTr\\OrdersPage.xaml.cs",
+              "ToolTip": "C:\\Users\\kira0\\source\\repos\\LogistTr\\LogistTr\\OrdersPage.xaml.cs",
+              "RelativeToolTip": "LogistTr\\OrdersPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T11:54:57.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderDTO.cs",
+              "DocumentMoniker": "C:\\Users\\kira0\\source\\repos\\LogistTr\\LogistTr\\OrderDTO.cs",
+              "RelativeDocumentMoniker": "LogistTr\\OrderDTO.cs",
+              "ToolTip": "C:\\Users\\kira0\\source\\repos\\LogistTr\\LogistTr\\OrderDTO.cs",
+              "RelativeToolTip": "LogistTr\\OrderDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T20:57:49.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrdersPage.xaml",
+              "DocumentMoniker": "C:\\Users\\kira0\\source\\repos\\LogistTr\\LogistTr\\OrdersPage.xaml",
+              "RelativeDocumentMoniker": "LogistTr\\OrdersPage.xaml",
+              "ToolTip": "C:\\Users\\kira0\\source\\repos\\LogistTr\\LogistTr\\OrdersPage.xaml",
+              "RelativeToolTip": "LogistTr\\OrdersPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-27T09:09:59.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WarehouseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\kira0\\source\\repos\\LogistTr\\LogistTr\\WarehouseDTO.cs",
+              "RelativeDocumentMoniker": "LogistTr\\WarehouseDTO.cs",
+              "ToolTip": "C:\\Users\\kira0\\source\\repos\\LogistTr\\LogistTr\\WarehouseDTO.cs",
+              "RelativeToolTip": "LogistTr\\WarehouseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T10:33:09.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WarehousePage.xaml",
+              "DocumentMoniker": "C:\\Users\\kira0\\source\\repos\\LogistTr\\LogistTr\\WarehousePage.xaml",
+              "RelativeDocumentMoniker": "LogistTr\\WarehousePage.xaml",
+              "ToolTip": "C:\\Users\\kira0\\source\\repos\\LogistTr\\LogistTr\\WarehousePage.xaml",
+              "RelativeToolTip": "LogistTr\\WarehousePage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-27T09:15:45.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RoutesPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\kira0\\source\\repos\\LogistTr\\LogistTr\\RoutesPage.xaml.cs",
+              "RelativeDocumentMoniker": "LogistTr\\RoutesPage.xaml.cs",
+              "ToolTip": "C:\\Users\\kira0\\source\\repos\\LogistTr\\LogistTr\\RoutesPage.xaml.cs",
+              "RelativeToolTip": "LogistTr\\RoutesPage.xaml.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAmwIIAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T13:00:15.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ClientsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\kira0\\source\\repos\\LogistTr\\LogistTr\\ClientsPage.xaml",
+              "RelativeDocumentMoniker": "LogistTr\\ClientsPage.xaml",
+              "ToolTip": "C:\\Users\\kira0\\source\\repos\\LogistTr\\LogistTr\\ClientsPage.xaml",
+              "RelativeToolTip": "LogistTr\\ClientsPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-27T09:08:01.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ClientsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\kira0\\source\\repos\\LogistTr\\LogistTr\\ClientsPage.xaml.cs",
+              "RelativeDocumentMoniker": "LogistTr\\ClientsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\kira0\\source\\repos\\LogistTr\\LogistTr\\ClientsPage.xaml.cs",
+              "RelativeToolTip": "LogistTr\\ClientsPage.xaml.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAgwIMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T09:08:07.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RouteDto.cs",
+              "DocumentMoniker": "C:\\Users\\kira0\\source\\repos\\LogistTr\\LogistTr\\RouteDto.cs",
+              "RelativeDocumentMoniker": "LogistTr\\RouteDto.cs",
+              "ToolTip": "C:\\Users\\kira0\\source\\repos\\LogistTr\\LogistTr\\RouteDto.cs",
+              "RelativeToolTip": "LogistTr\\RouteDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T09:25:49.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WarehousePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\kira0\\source\\repos\\LogistTr\\LogistTr\\WarehousePage.xaml.cs",
+              "RelativeDocumentMoniker": "LogistTr\\WarehousePage.xaml.cs",
+              "ToolTip": "C:\\Users\\kira0\\source\\repos\\LogistTr\\LogistTr\\WarehousePage.xaml.cs",
+              "RelativeToolTip": "LogistTr\\WarehousePage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T13:01:11.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RoutesPage.xaml",
+              "DocumentMoniker": "C:\\Users\\kira0\\source\\repos\\LogistTr\\LogistTr\\RoutesPage.xaml",
+              "RelativeDocumentMoniker": "LogistTr\\RoutesPage.xaml",
+              "ToolTip": "C:\\Users\\kira0\\source\\repos\\LogistTr\\LogistTr\\RoutesPage.xaml",
+              "RelativeToolTip": "LogistTr\\RoutesPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-27T09:10:52.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\kira0\\source\\repos\\LogistTr\\LogistTr\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "LogistTr\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\kira0\\source\\repos\\LogistTr\\LogistTr\\MainWindow.xaml",
+              "RelativeToolTip": "LogistTr\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-25T22:13:49.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\kira0\\source\\repos\\LogistTr\\LogistTr\\MainPage.xaml",
+              "RelativeDocumentMoniker": "LogistTr\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\kira0\\source\\repos\\LogistTr\\LogistTr\\MainPage.xaml",
+              "RelativeToolTip": "LogistTr\\MainPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-27T11:28:01.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Documents.xaml",
+              "DocumentMoniker": "C:\\Users\\kira0\\source\\repos\\LogistTr\\LogistTr\\Documents.xaml",
+              "RelativeDocumentMoniker": "LogistTr\\Documents.xaml",
+              "ToolTip": "C:\\Users\\kira0\\source\\repos\\LogistTr\\LogistTr\\Documents.xaml",
+              "RelativeToolTip": "LogistTr\\Documents.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-26T22:40:59.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AllWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\kira0\\source\\repos\\LogistTr\\LogistTr\\AllWindow.xaml",
+              "RelativeDocumentMoniker": "LogistTr\\AllWindow.xaml",
+              "ToolTip": "C:\\Users\\kira0\\source\\repos\\LogistTr\\LogistTr\\AllWindow.xaml",
+              "RelativeToolTip": "LogistTr\\AllWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-27T09:43:23.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "VehiclesPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\kira0\\source\\repos\\LogistTr\\LogistTr\\VehiclesPage.xaml.cs",
+              "RelativeDocumentMoniker": "LogistTr\\VehiclesPage.xaml.cs",
+              "ToolTip": "C:\\Users\\kira0\\source\\repos\\LogistTr\\LogistTr\\VehiclesPage.xaml.cs",
+              "RelativeToolTip": "LogistTr\\VehiclesPage.xaml.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAswHEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T12:27:50.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Orders.cs",
+              "DocumentMoniker": "C:\\Users\\kira0\\source\\repos\\LogistTr\\LogistTr\\Orders.cs",
+              "RelativeDocumentMoniker": "LogistTr\\Orders.cs",
+              "ToolTip": "C:\\Users\\kira0\\source\\repos\\LogistTr\\LogistTr\\Orders.cs",
+              "RelativeToolTip": "LogistTr\\Orders.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAswBgAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T10:51:55.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AllWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\kira0\\source\\repos\\LogistTr\\LogistTr\\AllWindow.xaml.cs",
+              "RelativeDocumentMoniker": "LogistTr\\AllWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\kira0\\source\\repos\\LogistTr\\LogistTr\\AllWindow.xaml.cs",
+              "RelativeToolTip": "LogistTr\\AllWindow.xaml.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAswFkAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T10:43:15.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "VehiclesPage.xaml",
+              "DocumentMoniker": "C:\\Users\\kira0\\source\\repos\\LogistTr\\LogistTr\\VehiclesPage.xaml",
+              "RelativeDocumentMoniker": "LogistTr\\VehiclesPage.xaml",
+              "ToolTip": "C:\\Users\\kira0\\source\\repos\\LogistTr\\LogistTr\\VehiclesPage.xaml",
+              "RelativeToolTip": "LogistTr\\VehiclesPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-27T09:14:00.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LG.Context.cs",
+              "DocumentMoniker": "C:\\Users\\kira0\\source\\repos\\LogistTr\\LogistTr\\LG.Context.cs",
+              "RelativeDocumentMoniker": "LogistTr\\LG.Context.cs",
+              "ToolTip": "C:\\Users\\kira0\\source\\repos\\LogistTr\\LogistTr\\LG.Context.cs",
+              "RelativeToolTip": "LogistTr\\LG.Context.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwB8AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T09:02:37.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\kira0\\source\\repos\\LogistTr\\LogistTr\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "LogistTr\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\kira0\\source\\repos\\LogistTr\\LogistTr\\MainWindow.xaml.cs",
+              "RelativeToolTip": "LogistTr\\MainWindow.xaml.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwDwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T22:13:49.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Routes_.cs",
+              "DocumentMoniker": "C:\\Users\\kira0\\source\\repos\\LogistTr\\LogistTr\\Routes_.cs",
+              "RelativeDocumentMoniker": "LogistTr\\Routes_.cs",
+              "ToolTip": "C:\\Users\\kira0\\source\\repos\\LogistTr\\LogistTr\\Routes_.cs",
+              "RelativeToolTip": "LogistTr\\Routes_.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T09:05:34.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\Users\\kira0\\source\\repos\\LogistTr\\LogistTr\\Users.cs",
+              "RelativeDocumentMoniker": "LogistTr\\Users.cs",
+              "ToolTip": "C:\\Users\\kira0\\source\\repos\\LogistTr\\LogistTr\\Users.cs",
+              "RelativeToolTip": "LogistTr\\Users.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T08:59:56.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "BaseModel.cs",
+              "DocumentMoniker": "C:\\Users\\kira0\\source\\repos\\LogistTr\\LogistTr\\BaseModel.cs",
+              "RelativeDocumentMoniker": "LogistTr\\BaseModel.cs",
+              "ToolTip": "C:\\Users\\kira0\\source\\repos\\LogistTr\\LogistTr\\BaseModel.cs",
+              "RelativeToolTip": "LogistTr\\BaseModel.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T23:45:25.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "BaseModel.Context.cs",
+              "DocumentMoniker": "C:\\Users\\kira0\\source\\repos\\LogistTr\\LogistTr\\BaseModel.Context.cs",
+              "RelativeDocumentMoniker": "LogistTr\\BaseModel.Context.cs",
+              "ToolTip": "C:\\Users\\kira0\\source\\repos\\LogistTr\\LogistTr\\BaseModel.Context.cs",
+              "RelativeToolTip": "LogistTr\\BaseModel.Context.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T23:01:31.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "BaseModel.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\kira0\\source\\repos\\LogistTr\\LogistTr\\BaseModel.edmx",
+              "RelativeDocumentMoniker": "LogistTr\\BaseModel.edmx",
+              "ToolTip": "C:\\Users\\kira0\\source\\repos\\LogistTr\\LogistTr\\BaseModel.edmx [Diagram1]",
+              "RelativeToolTip": "LogistTr\\BaseModel.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2025-01-26T22:59:54.432Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\kira0\\source\\repos\\LogistTr\\LogistTr\\App.config",
+              "RelativeDocumentMoniker": "LogistTr\\App.config",
+              "ToolTip": "C:\\Users\\kira0\\source\\repos\\LogistTr\\LogistTr\\App.config",
+              "RelativeToolTip": "LogistTr\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABGAwAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-01-26T23:49:40.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Vehicles.cs",
+              "DocumentMoniker": "C:\\Users\\kira0\\source\\repos\\LogistTr\\LogistTr\\Vehicles.cs",
+              "RelativeDocumentMoniker": "LogistTr\\Vehicles.cs",
+              "ToolTip": "C:\\Users\\kira0\\source\\repos\\LogistTr\\LogistTr\\Vehicles.cs",
+              "RelativeToolTip": "LogistTr\\Vehicles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T08:59:57.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "LG.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\kira0\\source\\repos\\LogistTr\\LogistTr\\LG.edmx",
+              "RelativeDocumentMoniker": "LogistTr\\LG.edmx",
+              "ToolTip": "C:\\Users\\kira0\\source\\repos\\LogistTr\\LogistTr\\LG.edmx [Diagram1]",
+              "RelativeToolTip": "LogistTr\\LG.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2025-01-27T08:59:00.949Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Clients.cs",
+              "DocumentMoniker": "C:\\Users\\kira0\\source\\repos\\LogistTr\\LogistTr\\Clients.cs",
+              "RelativeDocumentMoniker": "LogistTr\\Clients.cs",
+              "ToolTip": "C:\\Users\\kira0\\source\\repos\\LogistTr\\LogistTr\\Clients.cs",
+              "RelativeToolTip": "LogistTr\\Clients.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T09:05:22.623Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

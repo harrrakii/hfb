@@ -1,0 +1,68 @@
+﻿<Page x:Class="LogistTr.OrdersPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:LogistTr"
+      mc:Ignorable="d" 
+      d:DesignHeight="600" d:DesignWidth="800"
+      Title="OrdersPage">
+
+    <Grid Background="#F9F5F6">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Заголовок страницы -->
+        <TextBlock Text="Заказы" FontSize="24" FontWeight="Bold" Margin="0,0,0,20" Grid.Row="0"/>
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="300"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Панель фильтров и формы заказа -->
+            <StackPanel Background="#FDF7FA" Grid.Column="0" Width="280" >
+                <!-- Поле поиска -->
+                <TextBox x:Name="SearchTextBox" Height="40" Margin="0,0,0,10"/>
+
+                <!-- Выпадающий список для выбора клиента -->
+                <ComboBox x:Name="ClientComboBox" Height="40" Margin="0,0,0,10" DisplayMemberPath="CompanyName" SelectedValuePath="ClientId" />
+
+                <!-- Текстовые поля для информации о заказе -->
+                <TextBox x:Name="CargoTextBox" Height="40" Margin="0,0,0,10" />
+                <TextBox x:Name="SizeTextBox" Height="40" Margin="0,0,0,10" />
+
+                <!-- Выбор даты заказа и доставки -->
+                <DatePicker x:Name="OrderDatePicker" Margin="0,0,0,10" />
+                <DatePicker x:Name="DeliveryDatePicker" Margin="0,0,0,10" />
+
+                <!-- Адрес для доставки -->
+                <TextBox x:Name="AddressTextBox" Height="40" Margin="0,0,0,10"/>
+
+                <!-- Выпадающие списки для водителя и способа оплаты -->
+                <ComboBox x:Name="DriverComboBox" Height="40" Margin="0,0,0,10"/>
+                <ComboBox x:Name="PaymentComboBox" Height="40" Margin="0,0,0,10" />
+
+                <!-- Поле для отображения цены -->
+                <TextBox x:Name="PriceTextBox" Text="Цена: 14234,00" FontSize="16" FontWeight="Bold" Margin="0,10,0,10" IsReadOnly="True"/>
+
+                <!-- Кнопки для редактирования и удаления заказа -->
+                <Button x:Name="CreateOrderButton" Content="Создать заказ" Background="#E91E63" Foreground="White" Height="40" Click="CreateOrderButton_Click"/>
+                <Button x:Name="UpdateOrderButton" Content="Изменить заказ" Background="#E91E63" Foreground="White" Height="40" Margin="0,10,0,10" Click="UpdateOrderButton_Click"/>
+                <Button x:Name="DeleteOrderButton" Content="Удалить заказ" Background="#E91E63" Foreground="White" Height="40" Click="DeleteOrderButton_Click"/>
+            </StackPanel>
+
+            <!-- Таблица заказов -->
+            <DataGrid x:Name="DGridOrders" AutoGenerateColumns="False" IsReadOnly="True" Grid.Column="1" Margin="20,0,0,0" Background="White" SelectionChanged="DGridOrders_SelectionChanged">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Номер заказа" Binding="{Binding OrderNumber}" Width="*"/>
+                    <DataGridTextColumn Header="Организация" Binding="{Binding CompanyName}" Width="*"/>
+                    <DataGridTextColumn Header="Статус" Binding="{Binding Status}" Width="*"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </Grid>
+    </Grid>
+</Page>

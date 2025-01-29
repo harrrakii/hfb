@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="67fcf3c9f26444f393b932cabc4251c3" Name="Diagram1">
+        <EntityTypeShape EntityType="LOGTRANCEModel.Cargo" Width="1.5" PointX="3" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LOGTRANCEModel.Clients" Width="1.5" PointX="3" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LOGTRANCEModel.Orders" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="LOGTRANCEModel.Payment" Width="1.5" PointX="7.5" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LOGTRANCEModel.RolesEmployee" Width="1.5" PointX="5.75" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LOGTRANCEModel.Routes_" Width="1.5" PointX="3" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LOGTRANCEModel.Users" Width="1.5" PointX="8" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LOGTRANCEModel.Vehicles" Width="1.5" PointX="0.75" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LOGTRANCEModel.Warehouse" Width="1.5" PointX="0.75" PointY="1.875" IsExpanded="true" />
+        <AssociationConnector Association="LOGTRANCEModel.FK__Cargo__Warehouse__571DF1D5" ManuallyRouted="false" />
+        <AssociationConnector Association="LOGTRANCEModel.FK__Orders__CargoId__5AEE82B9" ManuallyRouted="false" />
+        <AssociationConnector Association="LOGTRANCEModel.FK__Orders__ClientId__59FA5E80" ManuallyRouted="false" />
+        <AssociationConnector Association="LOGTRANCEModel.FK__Orders__RouteId__5BE2A6F2" ManuallyRouted="false" />
+        <AssociationConnector Association="LOGTRANCEModel.FK__Payment__OrderId__5EBF139D" ManuallyRouted="false" />
+        <AssociationConnector Association="LOGTRANCEModel.FK__Users__RoleId__4BAC3F29" ManuallyRouted="false" />
+        <AssociationConnector Association="LOGTRANCEModel.FK__Routes___Status___52593CB8" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
